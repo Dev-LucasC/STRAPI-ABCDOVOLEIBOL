@@ -7,12 +7,12 @@ module.exports = ({ env }) => {
     mysql: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
-        ssl: env.bool('DATABASE_SSL', false) && {
+        host: env('DATABASE_HOST', 'dpg-chahjvak728r8808l85g-a.oregon-postgres.render.com'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'teste_yq7r'),
+        user: env('DATABASE_USERNAME', 'admin'),
+        password: env('DATABASE_PASSWORD', 'DATABASE_PASSWORD=TNVVxrcMXrQdhXRfshk2aYMDtNAghoeK'),
+        ssl: env.bool('DATABASE_SSL', true) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
