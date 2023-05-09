@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestacaos",
+  "info": {
+    "singularName": "prestacao",
+    "pluralName": "prestacaos",
+    "displayName": "prestacao"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "provedor": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
