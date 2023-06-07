@@ -12,12 +12,9 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.2",
     "@strapi/plugin-users-permissions": "4.10.2",
-    "@strapi/provider-upload-cloudinary": "^4.10.2",
+    "@strapi/provider-upload-cloudinary": "4.10.2",
     "@strapi/strapi": "4.10.2",
-    "add": "^2.0.6",
-    "pg": "^8.8.0",
-    "strapi-provider-upload-cloudinary": "^3.1.4",
-    "yarn": "^1.22.19"
+    "pg": "^8.8.0"
   },
   "author": {
     "name": "A Strapi developer"
