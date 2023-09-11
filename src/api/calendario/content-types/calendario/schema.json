@@ -42,6 +42,13 @@
     },
     "categoria": {
       "type": "string"
+    },
+    "placar": {
+      "type": "string",
+      "required": false
+    },
+    "placar2": {
+      "type": "string"
     }
   }
 }
